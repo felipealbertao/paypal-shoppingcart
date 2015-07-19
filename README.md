@@ -35,7 +35,7 @@ The relevant folders for this exercise are:
 2. Display the tax amount in the cart page ("View Cart" link). The taxes must be presented in red.
 3. Pass the taxes to the PayPal REST API:
    - The PayPal SDK is already integrated.
-   - The tax amount must be passed to the PayPal API by `tax` property. This is documented
+   - The tax amount must be passed to the PayPal API by using the `tax` property. This is documented
      in the PayPal REST API documentation, under *Payment > Create a payment* topic: 
      https://developer.paypal.com/webapps/developer/docs/api/
 
