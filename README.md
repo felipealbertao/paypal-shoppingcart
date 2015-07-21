@@ -11,11 +11,14 @@ Sample shopping cart app demonstrating the use of PayPal REST API.
 Clone, install and run.
 
 ```shell
-git clone git@github.com:felipealbertao/paypal-shoppingcart.git
+git clone https://github.com/felipealbertao/paypal-shoppingcart.git
 cd paypal-shoppingcart
 npm install
 npm start
 ```
+
+Please do not fork this repo, so your changes are not made public.
+
 
 ## Explore the app
 
@@ -32,6 +35,9 @@ The relevant folders for this exercise are:
 ### Application Changes
 
 1. Include taxes to the cart total. Taxes are 7% of the total purchase.
+   - For the purpose of this exercise, assume that there are no complex tax calculations.
+     Specifically, assume a flat tax without considering state, the taxes are calculated over the cart total, and
+     calculation can be rounded.
 2. Display the tax amount in the cart page ("View Cart" link). The taxes must be presented in red.
 3. Pass the taxes to the PayPal REST API:
    - The PayPal SDK is already integrated.
@@ -41,7 +47,7 @@ The relevant folders for this exercise are:
 
 ### Deliverables
 
-Send the following files to `falbertao@paypal.com`
+Send the following files to `DL-PayPalCredit-CUE-Eval@paypal.com`
 
 - A screenshot of the application's home page showing the products
 - A screenshot of the cart page showing the calculated taxes
