@@ -37,7 +37,7 @@ The relevant folders for this exercise are:
 1. Include taxes to the cart total. Taxes are 7% of the total purchase.
    - For the purpose of this exercise, assume that there are no complex tax calculations.
      Specifically, assume a flat tax without considering state, the taxes are calculated over the cart total, and
-     calculation can be rounded.
+     the calculation can be rounded.
 2. Display the tax amount in the cart page ("View Cart" link). The taxes must be presented in red.
 3. Pass the taxes to the PayPal REST API:
    - The PayPal SDK is already integrated.
