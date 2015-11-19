@@ -34,7 +34,7 @@ The relevant folders for this exercise are:
 
 ### Application Changes
 
-1. Include taxes to the cart total. Taxes are 7% of the total purchase.
+1. Include taxes to the cart total. Taxes are 12% of the total purchase.
    - For the purpose of this exercise, assume that there are no complex tax calculations.
      Specifically, assume a flat tax without considering state, the taxes are calculated over the cart total, and
      the calculation can be rounded.
